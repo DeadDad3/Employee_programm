@@ -13,6 +13,11 @@ public class Employee {
     private String lastName;
     private String firstName;
     private String employeeNumber;
+    private String email;
+
+    public Employee() {
+
+    }
 
     public Long getId() {
         return id;
@@ -53,8 +58,4 @@ public class Employee {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    private String email;
-
-
 }
